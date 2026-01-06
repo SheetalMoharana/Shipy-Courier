@@ -31,10 +31,7 @@ const Navbar = () => {
             <Link to="/orders" className="hover:text-white">Orders</Link>
 
 
-            <Link
-              to="/sign-in"
-              className="ml-4 px-5 py-2 rounded-xl bg-white text-emerald-600 font-semibold hover:bg-slate-100 transition"
-            >
+            <Link to="/signin" className="ml-4 px-5 py-2 rounded-xl bg-white text-emerald-600 font-semibold hover:bg-slate-100 transition" >
               Sign In
             </Link>
           </nav>

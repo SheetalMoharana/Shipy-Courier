@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { X, Plus } from "lucide-react";
 import { assets } from "../assets/assets";
 
-const Cal_sec = () => {
+const Calculation = () => {
   const [boxes, setBoxes] = useState([
     { weight: "", unit: "g", l: "", b: "", h: "", count: "" },
   ]);
@@ -157,4 +157,4 @@ const Cal_sec = () => {
   );
 };
 
-export default Cal_sec ;
+export default Calculation ;

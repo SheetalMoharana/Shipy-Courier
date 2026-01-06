@@ -8,7 +8,7 @@ const partners = [
   { id: 5, name: "Company Five", logo: null },
 ];
 
-// Duplicate list for infinite scroll illusion
+
 const scrollingPartners = [...partners, ...partners];
 
 const Trusted_partners = () => {
@@ -25,7 +25,7 @@ const Trusted_partners = () => {
           </p>
         </div>
 
-        {/* Scroller */}
+        
         <div className="relative">
           <div className="flex gap-6 animate-partner-scroll w-max">
             {scrollingPartners.map((partner, index) => (
@@ -36,13 +36,13 @@ const Trusted_partners = () => {
                            items-center justify-center hover:shadow-md
                            transition"
               >
-                {/* Logo Placeholder */}
+                
                 <div className="w-20 h-20 bg-gray-100 rounded-lg
                                 flex items-center justify-center text-gray-400">
                   Logo
                 </div>
 
-                {/* Company Name */}
+                
                 <h4 className="mt-4 font-semibold text-gray-700">
                   {partner.name}
                 </h4>

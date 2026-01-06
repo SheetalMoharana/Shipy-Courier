@@ -4,7 +4,7 @@ import Cta_1 from '../components/Cta_1'
 import Whyshipy from '../components/Whyshipy'
 import Ourservices from '../components/Ourservices'
 import Stat from '../components/Stat'
-import Cal_sec from '../components/cal_sec'
+import Calculation from '../components/Calculation'
 import Trusted_partners from '../components/Trusted_partners'
 import Customer from '../components/Customer'
 import Footer from '../components/Footer'
@@ -21,7 +21,7 @@ const Home = () => {
 
     <Stat/>
 
-    <Cal_sec/>
+    <Calculation/>
 
     <Trusted_partners/>
 
