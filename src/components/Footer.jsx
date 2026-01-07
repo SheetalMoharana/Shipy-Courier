@@ -22,8 +22,7 @@ const Footer = () => {
               Shipy <span className="text-green-500">Courier</span>
             </h2>
             <p className="mt-4 text-sm text-gray-600 leading-relaxed">
-              Shipy Courier delivers fast, reliable, and seamless logistics
-              solutions, ensuring timely and secure shipments worldwide.
+              Smart logistics built for speed, transparency, and a smoother delivery experience.
             </p>
             
           </div>

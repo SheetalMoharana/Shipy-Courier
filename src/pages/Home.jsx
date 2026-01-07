@@ -7,7 +7,7 @@ import Stat from '../components/Stat'
 import Calculation from '../components/Calculation'
 import Trusted_partners from '../components/Trusted_partners'
 import Customer from '../components/Customer'
-import Footer from '../components/Footer'
+
 const Home = () => {
   return (
     <>
@@ -27,7 +27,7 @@ const Home = () => {
 
     <Customer/>
 
-    <Footer/>
+   
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, Lock } from "lucide-react";
+import {Link} from 'react-router-dom'
 
 const Sign_In = () => {
   return (
@@ -78,9 +79,9 @@ const Sign_In = () => {
           
           <p className="text-sm text-center text-gray-500 mt-6">
             Don’t have an account?{" "}
-            <span className="text-blue-600 cursor-pointer hover:underline">
+            <Link to='/register' className="text-blue-600 cursor-pointer hover:underline">
               Sign Up
-            </span>
+            </Link>
           </p>
         </div>
       </div>

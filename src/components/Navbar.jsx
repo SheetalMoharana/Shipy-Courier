@@ -24,11 +24,11 @@ const Navbar = () => {
           
           <nav className="hidden md:flex items-center gap-8 text-white/90 font-medium">
             <Link to="/" className="hover:text-white">Home</Link>
-            <Link to="/services" className="hover:text-white">Services</Link>
             <Link to="/about" className="hover:text-white">About</Link>
-             <Link to="/blogs" className="hover:text-white">Blogs</Link>
+             <Link to="/blog" className="hover:text-white">Blogs</Link>
             <Link to="/contact" className="hover:text-white">Contact</Link>
-            <Link to="/orders" className="hover:text-white">Orders</Link>
+            <Link to="/pricing" className="hover:text-white">Pricing</Link>
+            <Link to="/order" className="hover:text-white">Orders</Link>
 
 
             <Link to="/signin" className="ml-4 px-5 py-2 rounded-xl bg-white text-emerald-600 font-semibold hover:bg-slate-100 transition" >
@@ -51,26 +51,27 @@ const Navbar = () => {
             <Link onClick={() => setOpen(false)} to="/" className="block">
               Home
             </Link>
-            <Link onClick={() => setOpen(false)} to="/services" className="block">
-              Services
-            </Link>
-            <Link onClick={() => setOpen(false)} to="/about" className="block">
+             <Link onClick={() => setOpen(false)} to="/about" className="block">
               About
             </Link>
-            <Link onClick={() => setOpen(false)} to="/about" className="block">
-              Blogs
+            <Link onClick={() => setOpen(false)} to="/blog" className="block">
+              Blog
             </Link>
             <Link onClick={() => setOpen(false)} to="/contact" className="block">
               Contact
             </Link>
-            <Link onClick={() => setOpen(false)} to="/contact" className="block">
-              Orders
+            <Link onClick={() => setOpen(false)} to="/pricing" className="block">
+              Pricing
+            </Link>
+
+            <Link onClick={() => setOpen(false)} to="/order" className="block">
+              Order
             </Link>
 
 
             <Link
               onClick={() => setOpen(false)}
-              to="/services"
+              to="/signin"
               className="inline-block mt-2 px-5 py-2 rounded-xl bg-white text-emerald-600 font-semibold"
             >
               Sign In
