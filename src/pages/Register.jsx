@@ -40,7 +40,7 @@ const Register = () => {
                       </div>
 
                       <div>
-                        <label className="text-sm text-gray-600">Email</label>
+                        <label className="text-sm text-gray-600">Phone</label>
                         <div className="flex items-center border rounded-lg px-3 mt-1">
                           <Phone size={18} className="text-gray-400" />
                           <input

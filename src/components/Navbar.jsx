@@ -28,7 +28,7 @@ const Navbar = () => {
              <Link to="/blog" className="hover:text-white">Blogs</Link>
             <Link to="/contact" className="hover:text-white">Contact</Link>
             <Link to="/pricing" className="hover:text-white">Pricing</Link>
-            <Link to="/order" className="hover:text-white">Orders</Link>
+            <Link to="/track" className="hover:text-white">Tracking</Link>
 
 
             <Link to="/signin" className="ml-4 px-5 py-2 rounded-xl bg-white text-emerald-600 font-semibold hover:bg-slate-100 transition" >
@@ -64,8 +64,8 @@ const Navbar = () => {
               Pricing
             </Link>
 
-            <Link onClick={() => setOpen(false)} to="/order" className="block">
-              Order
+            <Link onClick={() => setOpen(false)} to="/track" className="block">
+              Tracking
             </Link>
 
 

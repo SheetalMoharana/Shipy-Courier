@@ -1,28 +1,28 @@
 import React from 'react'
-import { Truck } from 'lucide-react';
+import { Truck, UsersRound, ShieldCheck } from 'lucide-react';
 const features = [
   {
-    title: "Fast & Reliable Delivery",
-    desc: "On-time pickups and guaranteed deliveries across cities and states.",
+    title: "On-Time Delivery",
+    desc: "We prioritize timely pickups and dependable deliveries so your packages arrive exactly when expected.",
     icon: <Truck size={26} />,
     delay: 0.3
   },
   {
-    title: "Fast & Reliable Delivery",
-    desc: "On-time pickups and guaranteed deliveries across cities and states.",
+    title: "Easy Shipping Process",
+    desc: "A smooth, simple flow from booking to delivery, with clear updates at every step.",
     icon: <Truck size={26} />,
     delay: 0.3
   },
   {
-    title: "Fast & Reliable Delivery",
-    desc: "On-time pickups and guaranteed deliveries across cities and states.",
-    icon: <Truck size={26} />,
+    title: "Safe & Secure Handling",
+    desc: "Your shipments are handled with care, ensuring protection throughout the entire journey.",
+    icon: <ShieldCheck size={26} />,
     delay: 0.3
   },
   {
-    title: "Fast & Reliable Delivery",
-    desc: "On-time pickups and guaranteed deliveries across cities and states.",
-    icon: <Truck size={26} />,
+    title: "Dedicated Support",
+    desc: "Our friendly support team is always ready to assist you whenever you need help.",
+    icon: <UsersRound size={26} />,
     delay: 0.3
   }
 ]

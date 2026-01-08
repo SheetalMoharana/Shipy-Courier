@@ -36,7 +36,7 @@ const Hero = () => {
           key={slide.id} className={`absolute inset-0 transition-opacity duration-1000 ${ index === current ? "opacity-100 z-10" : "opacity-0 z-0"  }`} >
              <img src={slide.image} alt="" className="w-full h-full object-cover"/>
            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
-<div className="relative z-2 0 h-full max-w-7xl mx-auto px-6 flex items-center">
+<div className="relative z-20 h-full max-w-7xl mx-auto px-6 flex items-center">
             <div className="max-w-xl text-white">
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                 {slide.title}

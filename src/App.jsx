@@ -5,6 +5,10 @@ import MainLayout from "./layouts/MainLayout";
  import Sign_In from "./pages/Sign_In"
  import Register from "./pages/Register";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Tracking from "./pages/Tracking";
+import Pricing from "./pages/Pricing";
+import Contact from "./pages/Contact";
 function App(){
   return (
     <Routes>
@@ -13,7 +17,12 @@ function App(){
         <Route path="/signin" element={<Sign_In />} />
         <Route path='/register' element={<Register/>}/>
         <Route path='/about' element={<About/>}/>
-        </Route>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/pricing' element={<Pricing/>}/>
+        <Route path='/track' element={<Tracking/>}/>
+         
+      </Route>
         </Routes>
   )
 }
