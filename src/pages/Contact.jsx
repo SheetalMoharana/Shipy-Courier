@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
     <section className='relative w-full h-[70vh] min-h-[450px]'>
-        <img src={assets.contact_hero} alt='ABOUT US page' className='absolute inset-0 w-full h-full object-cover'/>
+        <img src={assets.contact_hero} alt='ABOUT US' className='absolute inset-0 w-full h-full object-cover'/>
         <div className="absolute inset-0 bg-black/40"></div>
         
     </section>
