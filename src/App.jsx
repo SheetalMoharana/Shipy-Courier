@@ -9,6 +9,9 @@ import Blog from "./pages/Blog";
 import Tracking from "./pages/Tracking";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import Refund from "./pages/Refund";
 function App(){
   return (
     <Routes>
@@ -21,6 +24,10 @@ function App(){
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/pricing' element={<Pricing/>}/>
         <Route path='/track' element={<Tracking/>}/>
+        <Route path='/privacy' element={<Privacy/>}/>
+        <Route path='/term' element={<Terms/>}/>
+        <Route path='/refund' element={<Refund/>}/>
+
          
       </Route>
         </Routes>

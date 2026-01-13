@@ -42,11 +42,11 @@ const Contact = () => {
           <div className="space-y-4 text-slate-700">
             <div className="flex gap-3">
               <MapPin className="text-blue-600" size={20} />
-              <p>Cuttack, Odisha, India- 753001</p>
+              <p>ABC City, XYZ Country</p>
             </div>
             <div className="flex gap-3">
               <Phone className="text-blue-600" size={20} />
-              <p>+91-9876543210</p>
+              <p>+91-1234567890</p>
             </div>
             
             <div className="flex gap-3">

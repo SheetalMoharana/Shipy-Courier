@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import {
   MapPin,
   Phone,
@@ -33,11 +34,11 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex gap-2">
                 <MapPin size={18} className="text-green-500" />
-                Cuttack , Odisha, India
+                ABC City, XYZ Country
               </li>
               <li className="flex gap-2">
                 <Phone size={18} className="text-green-500" />
-                +91 9876543210
+                +91 1234567890
               </li>
               <li className="flex gap-2">
                 <Mail size={18} className="text-green-500" />
@@ -61,10 +62,31 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li>About Us</li>
-              <li>Blog</li>
-              <li>Privacy Policy</li>
-              <li>Terms & Conditions</li>
+              <li>
+    <Link to="/about" className="hover:text-emerald-500 transition">
+      About Us
+    </Link>
+  </li>
+
+  <li>
+    <Link to="/blog" className="hover:text-emerald-500 transition">
+      Blog
+    </Link></li>
+    <li>
+              <Link to="/privacy" className="hover:text-emerald-500 transition">
+      Privacy & Policy
+    </Link>
+    </li>
+    <li>
+              <Link to="/term" className="hover:text-emerald-500 transition">
+      Terms & Condition
+    </Link>
+    </li>
+    <li>
+              <Link to="/refund" className="hover:text-emerald-500 transition">
+      Refunds & Cancellation
+    </Link>
+    </li>
             </ul>
 
             <h4 className="mt-6 mb-3 font-medium">Follow Us</h4>

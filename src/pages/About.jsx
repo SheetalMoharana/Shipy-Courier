@@ -9,7 +9,7 @@ import Whyshipy from '../components/Whyshipy';
 const About = () => {
   return (
     <>
-    <section className='relative w-full h-[70vh] min-h-[450px]'>
+    <section className='relative w-full h-[70vh] min-h-[450px] mt-2'>
         <img src={assets.about_hero} alt='ABOUT US' className='absolute inset-0 w-full h-full object-cover'/>
         <div className="absolute inset-0 bg-black/40"></div>
         

@@ -4,8 +4,8 @@ import { assets } from '../assets/assets'
 const Blog = () => {
   return (
     <>
-    <section className='relative w-full h-[70vh] min-h-[450px]'>
-            <img src={assets.about_hero} alt='ABOUT US' className='absolute inset-0 w-full h-full object-cover'/>
+    <section className='relative w-full h-[70vh] min-h-[450px] mt-2'>
+            <img src={assets.blog_hero} alt='ABOUT US' className='absolute inset-0 w-full h-full object-cover'/>
             <div className="absolute inset-0 bg-black/40"></div>
             
         </section>
@@ -27,9 +27,9 @@ const Blog = () => {
 
       
       <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden">
-        <div className="h-48 bg-slate-200 flex items-center justify-center text-slate-500">
-          Blog Image
-        </div>
+        <img src={assets.future_ai} alt='Blog Image' className="h-48 w-full flex items-center justify-center"/>
+          
+        
         <div className="p-6">
           <p className="text-sm text-slate-500">January 2026</p>
           <h3 className="mt-2 text-xl font-semibold text-slate-800">
@@ -44,9 +44,7 @@ const Blog = () => {
 
       
       <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden">
-        <div className="h-48 bg-slate-200 flex items-center justify-center text-slate-500">
-          Blog Image
-        </div>
+        <img src={assets.fast_delivery} alt='Blog Image' className="h-48 w-full flex items-center justify-center"/>
         <div className="p-6">
           <p className="text-sm text-slate-500">December 2025</p>
           <h3 className="mt-2 text-xl font-semibold text-slate-800">
@@ -60,9 +58,7 @@ const Blog = () => {
       </div>
 
 <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden">
-        <div className="h-48 bg-slate-200 flex items-center justify-center text-slate-500">
-          Blog Image
-        </div>
+        <img src={assets.green_delivery} alt='Blog Image' className="h-48 w-full flex items-center justify-center"/>
         <div className="p-6">
           <p className="text-sm text-slate-500">November 2025</p>
           <h3 className="mt-2 text-xl font-semibold text-slate-800">

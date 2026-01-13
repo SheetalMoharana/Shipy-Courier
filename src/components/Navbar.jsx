@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { assets } from "../assets/assets";
+import { Menu, X } from "lucide-react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -12,10 +13,10 @@ const Navbar = () => {
         <div className="h-16 flex items-center justify-between">
 
           
-          <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center text-white font-bold">
-              U
-            </div>
+          <Link to="/" className="flex items-center">
+            
+              <img src={assets.Shipy_logo} alt="logo" className=" h-30 w-auto object-contain filter brightness-200 contrast-200"/>
+              
             <span className="text-lg font-semibold text-white">
               Shipy-Courier
             </span>
@@ -37,12 +38,9 @@ const Navbar = () => {
           </nav>
 
           
-          <button
-            onClick={() => setOpen(!open)}
-            className="md:hidden text-white text-2xl"
-          >
-            ☰
-          </button>
+          <button onClick={() => setOpen(!open)} className="md:hidden text-white"> {open ? <X size={22} /> : <Menu size={22} />}
+</button>
+
         </div>
 
         
@@ -63,6 +61,7 @@ const Navbar = () => {
             <Link onClick={() => setOpen(false)} to="/pricing" className="block">
               Pricing
             </Link>
+
 
             <Link onClick={() => setOpen(false)} to="/track" className="block">
               Tracking
