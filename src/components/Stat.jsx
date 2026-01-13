@@ -1,5 +1,6 @@
 import React from "react";
 import { Package, MapPin, Clock, Headset } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const stats = [
   {
@@ -57,10 +58,11 @@ const Stat = () => {
           <p className="mt-4 text-white/80 max-w-2xl mx-auto">
             Connect With Us To Experience Fast And Trustable Deliveries
           </p>
-
+          <Link to="/contact">
           <button className="mt-8 px-8 py-4 rounded-lg bg-white text-blue-600 font-semibold hover:bg-blue-50 transition">
             Connect with Us
           </button>
+          </Link>
         </div>
 
       </div>
