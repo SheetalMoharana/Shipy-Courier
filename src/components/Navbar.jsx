@@ -15,7 +15,7 @@ const Navbar = () => {
           
           <Link to="/" className="flex items-center">
             
-              <img src={assets.Shipy_logo} alt="logo" className=" h-30 w-auto object-contain filter brightness-200 contrast-200"/>
+              <img src={assets.Shipy_logo} alt="logo" className=" h-30 w-auto object-contain filter brightness-200 contrast-200 "/>
               
             <span className="text-lg font-semibold text-white">
               Shipy-Courier
