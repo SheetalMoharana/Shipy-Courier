@@ -87,6 +87,11 @@ const Footer = () => {
       Refunds & Cancellation
     </Link>
     </li>
+    <li>
+              <Link to="/faq" className="hover:text-emerald-500 transition">
+     FAQs
+    </Link>
+    </li>
             </ul>
 
             <h4 className="mt-6 mb-3 font-medium">Follow Us</h4>

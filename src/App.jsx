@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Refund from "./pages/Refund";
+import Faq from "./pages/Faq";
 function App(){
   return (
     <Routes>
@@ -27,6 +28,7 @@ function App(){
         <Route path='/privacy' element={<Privacy/>}/>
         <Route path='/term' element={<Terms/>}/>
         <Route path='/refund' element={<Refund/>}/>
+        <Route path='/faq' element={<Faq/>}/>
 
          
       </Route>
