@@ -17,7 +17,7 @@ const Cta_1 = () => {
             </p>
           </div>
   <div className="flex gap-4">
-    <a href='/register' className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+    <a href='/signin' className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
               Login
             </a>
             <a href='/track' className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
