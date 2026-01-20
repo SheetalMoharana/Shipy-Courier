@@ -12,7 +12,11 @@ const About = () => {
     <section className='relative w-full h-[70vh] min-h-[450px] mt-2'>
         <img src={assets.about_hero} alt='ABOUT US' className='absolute inset-0 w-full h-full object-cover'/>
         <div className="absolute inset-0 bg-black/40"></div>
-        
+        <div className="absolute inset-0 flex items-center justify-center">
+    <h1 className="text-white text-4xl md:text-5xl font-bold tracking-wide">
+      About Us
+    </h1>
+  </div>
     </section>
     <section className='py-8 max-w-5xl mx-auto px-4'>
         <p className='text-gray-700 text-lg text-center'>
